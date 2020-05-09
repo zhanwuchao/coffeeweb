@@ -1,2 +1,2 @@
-# coffeeweb
-osu coffee web
+# coffee!web
+osu!coffee website and docs page using docsify  
