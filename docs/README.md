@@ -7,6 +7,7 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 ### Uncategorized    
 
 -help | list of commands, differs based on developer status or not  
+-info | Public bot information    
 -bruh | bruh  
 -donate | get donation details  
 -donors | get list of donors  
