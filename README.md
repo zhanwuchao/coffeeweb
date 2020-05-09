@@ -3,6 +3,7 @@ Welcome to the website of osu!coffee, this repository will include the site's sr
   
 # Found a bug or want a new feature on site?    
 Report on it in the issues tab!  
+Please make sure you check the current bot version in the projects tab to verify this is not already known!  
 
 # Looking to help?  
 Contact `trq#8258` on Discord or, fork the repo and submit a pull request!
