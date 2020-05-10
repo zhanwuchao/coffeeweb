@@ -7,7 +7,8 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 ### Uncategorized    
 
 -help | list of commands, differs based on developer status or not  
--info | Public bot information    
+-info | public bot information  
+-invite | bot invite, support server invite, osu!cafe invite    
 -bruh | bruh  
 -donate | get donation details  
 -donors | get list of donors  
@@ -37,7 +38,7 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 Current running events in the bot  
 
 message.js | handles messages sent to check if they are sent by a bot, a command, or an easteregg trigger  
-ready.js | sends a report to the [logging server](https://discord.gg/invite/XeaGkCM) containing low stats and startup time   
+ready.js | sends a report to the [logging server](https://discord.gg/invite/XeaGkCM) containing low stats and startup time | also changes the bot status every 15 minutes     
 
 ## Easter Eggs  
 

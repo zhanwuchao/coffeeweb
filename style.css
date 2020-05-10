@@ -36,6 +36,32 @@ img {
   color: white;
 }
 
+.buttons2 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.buttons2 button {
+  background-color: #36393e;
+  border: none;
+  color: white;
+  padding: 30px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  margin: 8px 44px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttons2 button:hover {
+  background-color: #99AAB5;
+  color: white;
+}
+
 body {
   background-color: #36393e;
 }
@@ -101,4 +127,18 @@ a:active {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.servers {
+  display: inline-block;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 15px 46px;
+  margin: 4px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #AEABB1;
 }
