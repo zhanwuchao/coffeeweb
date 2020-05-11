@@ -71,4 +71,4 @@ Looking to make graphics and become a part of ous!coffee? Join the support serve
   
 ### Maintaining and Corrections  
   
-Notice a typo or a bug you can easily fix? Check out the websites (github repository)[https://github.com/trapss/coffeeweb] to fork and then make a pull request!
+Notice a typo or a bug you can easily fix? Check out the website's [github repository](https://github.com/trapss/coffeeweb) to fork and then make a pull request!
