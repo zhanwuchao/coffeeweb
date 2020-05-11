@@ -45,8 +45,6 @@ ready.js | sends a report to the [logging server](https://discord.gg/invite/XeaG
 
 Eastereggs are triggered by plain text in messages, see if you can find them all!   
   
-# Contributing  
-  
 ## Current contributers:  
   
 ### Development-  
