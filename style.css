@@ -69,10 +69,9 @@ body {
 
 .footer {
   font-size: 10px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   color: #AEABB1;
-  display: inline-block;
 }
 
 a:link {
@@ -142,4 +141,22 @@ a:active {
 h1 {
   text-align: center;
   color: #AEABB1;
+}
+
+.stats {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  font-size: 40px;
+}
+
+.stats2 {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  font-size: 40px;
 }

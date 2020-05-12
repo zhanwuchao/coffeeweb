@@ -1,5 +1,5 @@
 # osu!coffee  
-  
+
 ## Command list (Sorted by category)    
 
 anything in curly braces { } , indicates a required paramater  
@@ -44,31 +44,31 @@ ready.js | sends a report to the [logging server](https://discord.gg/invite/XeaG
 ## Easter Eggs  
 
 Eastereggs are triggered by plain text in messages, see if you can find them all!   
-  
+
 ## Current contributers:  
-  
+
 ### Development-  
-  
-trq | main developer  
-zyoulou | developer  
+
+trq | primary developer  
+zyoulou | secondary developer  
 varler | developer feedback  
 rmarc | developer feedback  
 czarlz | developer feedback  
-  
+
 ### Graphics-  
-  
+
 vanreto - osu!coffee logo (coffee cup)  
-  
+
 ## Looking to contribute?  
 
 ### Development  
-  
+
 If you are looking to help with the development of osu!coffee and it's website, dm `trq#8258` on discord  
-  
+
 ### Graphics  
-  
+
 Looking to make graphics and become a part of ous!coffee? Join the support server or contact `trq#8258` on discord  
-  
+
 ### Maintaining and Corrections  
-  
+
 Notice a typo or a bug you can easily fix? Check out the website's [github repository](https://github.com/trapss/coffeeweb) to fork and then make a pull request!
