@@ -1,8 +1,4 @@
 <?php
-$servername = "localhost";
-$username = "xnosucaf_bot";
-$password = "oxz!zw1;AKarKF?[Ab";
-$dbname = "xnosucaf_bStats";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
