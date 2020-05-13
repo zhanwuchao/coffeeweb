@@ -72,9 +72,9 @@ if ($result->num_rows > 0) {
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-    <p><?php echo $row['commands']?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-    <p><?php echo $row['guilds']?></p>
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $row['users']?></p>
+    <p><?php echo $row["commands"]?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+    <p><?php echo $row["guilds"]?></p>
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $row["users"]?></p>
   </div>
   <div class="ex1">
   </div><br>
