@@ -68,7 +68,6 @@ if ($result->num_rows > 0) {
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-  <p><? $row["commands"]   $row["guilds"]      $row["users"] ?></p>
   </div>
   <div class="ex1">
   </div><br>
