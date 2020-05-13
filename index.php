@@ -13,9 +13,9 @@ if ($conn->connect_error) {
 $sql = "SELECT commands, guilds, users FROM stats";
 $result = $conn->query($sql);
 
-$c = $result[0]
-$g = $result[1]
-$u = $result[2]
+$c = $result[0];
+$g = $result[1];
+$u = $result[2];
 
 $conn->close();
 ?>
