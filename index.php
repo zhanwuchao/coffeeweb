@@ -19,10 +19,6 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-
-$c = $row["commands"];
-$g = $row["guilds"];
-$u = $row["users"]
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -78,9 +74,9 @@ $u = $row["users"]
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-  <? echo $c ?>
-  <? echo $g ?>
-  <? echo $u ?>
+  <? echo $row["commands"] ?>
+  <? echo $row["guilds"] ?>
+  <? echo $row["users"] ?>
   </div>
   <div class="ex1">
   </div><br>
