@@ -16,8 +16,7 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-?>
-<!DOCTYPE html>
+echo "<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,15 +34,12 @@ if ($result->num_rows > 0) {
     <button type="button" name="coffee" onclick="location.href='./index.html'">osu!coffee</button>
     <button type="button" name="docs" onclick="window.open('./docs')">Docs</button>
     <button type="button" name="community" onclick="location.href='./coms.html'">Commuity</button>
-    <!-- <button type="button" name="invite" onClick="location.href='https://discord.com/oauth2/authorize?client_id=698424159520161823&scope=bot&permissions=8'">Invite</button> -->
+    <button type="button" name="invite" onClick="location.href='https://discord.com/oauth2/authorize?client_id=698424159520161823&scope=bot&permissions=8'">Invite</button>
     <button type="button" name="team" onclick="location.href='./team.html'">Team</button>
     <button type="button" name="partners" onclick="location.href='./partners.html'">Partners</button>
   </div>
   <div id='img'>
     <img src='./rsc/coffee3.png' width="365" height="410"></div>
-  <br>
-  <br>
-  <br>
   <br>
   <br>
   <br>
@@ -71,6 +67,7 @@ if ($result->num_rows > 0) {
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
+  <p>$row["commands"]   row["guilds"]      row["users"]</p>
   </div>
   <div class="ex1">
   </div><br>
@@ -83,4 +80,5 @@ if ($result->num_rows > 0) {
   </div><br>
 </body>
 
-</html>
+</html>";
+?>
