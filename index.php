@@ -13,6 +13,10 @@ if ($conn->connect_error) {
 $sql = "SELECT * from stats";
 $result = $conn->query($sql);
 
+if ($result->num_rows > 0) {
+  while($row = $result->fetch_assoc()) {
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -68,9 +72,9 @@ $result = $conn->query($sql);
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-    <p><?php echo $result[0]?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-    <p><?php echo $result[1]?></p>
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $result[2]?></p>
+    <p><?php echo $row['commands']?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+    <p><?php echo $row['guilds']?></p>
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $row['users']?></p>
   </div>
   <div class="ex1">
   </div><br>
