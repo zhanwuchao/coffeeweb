@@ -17,6 +17,12 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
   }
 }
+
+$c = $result[0]
+$g = $result[1]
+$u = $result[2]
+
+$conn->close();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,9 +78,9 @@ if ($result->num_rows > 0) {
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-    <p><?php echo $row["commands"]?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-    <p><?php echo $row["guilds"]?></p>
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $row["users"]?></p>
+    <p><?=$c?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+    <p><?=$g?></p>
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?=$u?></p>
   </div>
   <div class="ex1">
   </div><br>
