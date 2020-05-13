@@ -10,7 +10,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * from stats";
+$sql = "SELECT commands, guilds, users FROM stats";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
