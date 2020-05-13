@@ -17,8 +17,9 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 ### Developer // Dev
 -eval {code} | evalulate js code from the bot, developer only    
 -restart | restart the pm2 process and bot, developer only  
--bi   | fetch currentbot statistics, developer only  
--ping | grab the websocket and heartbeat ping of the bot  
+-bi   | fetch currentbot statistics, developer only   
+-psi | advanced server info  
+-pui | advanced user info   
 
 ### Images  
 
@@ -33,6 +34,12 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 -newpp {player} | returns pp rebalance for standard players    
 -`gamemode` {player} | returns players stats    
 -super`gamemode` {player} | returns extended profile stats  
+
+### Utility  
+
+-si | server info  
+-ui | user info  
+-ping | grab the websocket and heartbeat ping of the bot  
 
 ## Events  
 
@@ -50,7 +57,8 @@ Eastereggs are triggered by plain text in messages, see if you can find them all
 ### Development-  
 
 trq | primary developer  
-zyoulou | secondary developer  
+zyoulou | secondary developer
+rikii | secondary developer   
 varler | developer feedback  
 rmarc | developer feedback  
 czarlz | developer feedback  
