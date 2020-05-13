@@ -78,9 +78,9 @@ $u = $row["users"]
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-    <p><?=$c?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-    <p><?=$g?></p>
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?=$u?></p>
+    <p><?echo $c?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+    <p><?echo $g?></p>
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?echo $u?></p>
   </div>
   <div class="ex1">
   </div><br>
