@@ -13,11 +13,6 @@ if ($conn->connect_error) {
 $sql = "SELECT commands, guilds, users FROM stats";
 $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-  while($row = $result->fetch_assoc()) {
-  }
-}
-
 $c = $result[0]
 $g = $result[1]
 $u = $result[2]
