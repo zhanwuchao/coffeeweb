@@ -15,15 +15,14 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["commands"]. " - Name: ". $row["guilds"]. " " . $row["users"] . "<br>";
     }
 } else {
     echo "0 results";
 }
 
-// $c = $result[0];
-// $g = $result[1];
-// $u = $result[2];
+$c = $row["commands"];
+$g = $row["guilds"];
+$u = $row["users"]
 
 $conn->close();
 ?>
