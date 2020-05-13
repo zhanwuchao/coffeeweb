@@ -1,20 +1,21 @@
 <?php
+include '../db.php';
 
-//$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-//if ($conn->connect_error) {
-  //die("Connection failed: " . $conn->connect_error);
-//}
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
 
-//$sql = "SELECT commands, guilds, users FROM stats";
-//$result = $conn->query($sql);
+$sql = "SELECT commands, guilds, users FROM stats";
+$result = $conn->query($sql);
 
-//if ($result->num_rows > 0) {
-  //  while($row = $result->fetch_assoc()) {
-    //}
-//} else {
-//    echo "0 results";
-//}
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+    }
+} else {
+    echo "0 results";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,7 +71,6 @@
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-  <?php //echo " " . $row["commands"]. "          " . $row["guilds"]. "             " . $row["users"]. "<br>";?>
   </div>
   <div class="ex1">
   </div><br>
