@@ -1,3 +1,19 @@
+<?php
+$servername = "localhost";
+$username = "xnosucaf_bot";
+$password = "oxz!zw1;AKarKF?[Ab";
+$dbname = "xnosucaf_bStats";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT * from stats";
+$result = $conn->query($sql);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +38,6 @@
   </div>
   <div id='img'>
     <img src='./rsc/coffee3.png' width="365" height="410"></div>
-  <!--
   <br>
   <br>
   <br>
@@ -53,9 +68,9 @@
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-    <p>filler&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-    <p>filler</p>
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfiller</p>
+    <p><?php echo $result[0]?>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+    <p><?php echo $result[1]?></p>
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $result[2]?></p>
   </div>
   <div class="ex1">
   </div><br>
@@ -63,7 +78,6 @@
   </div><br>
   <div class="ex3">
   </div><br>
--->
   <div class="footer">
     <h6>osu!coffee &copy 2020</h6>
   </div><br>
