@@ -23,8 +23,6 @@ if ($result->num_rows > 0) {
 $c = $row["commands"];
 $g = $row["guilds"];
 $u = $row["users"]
-
-$conn->close();
 ?>
 <!DOCTYPE html>
 <html lang="en">
