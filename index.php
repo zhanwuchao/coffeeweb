@@ -74,9 +74,7 @@ if ($result->num_rows > 0) {
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-  <? echo $row["commands"] ?>
-  <? echo $row["guilds"] ?>
-  <? echo $row["users"] ?>
+  <?php echo " " . $row["commands"]. "          " . $row["guilds"]. "             " . $row["users"]. "<br>";?>
   </div>
   <div class="ex1">
   </div><br>
