@@ -32,7 +32,7 @@ if ($result->num_rows > 0) {
 
 <body>
   <div class="buttons">
-    <button type="button" name="coffee" onclick="location.href='./index.html'">osu!coffee</button>
+    <button type="button" name="coffee" onclick="location.href=''">osu!coffee</button>
     <button type="button" name="docs" onclick="window.open('./docs')">Docs</button>
     <button type="button" name="community" onclick="location.href='./coms.html'">Commuity</button>
     <button type="button" name="invite" onClick="location.href='https://discord.com/oauth2/authorize?client_id=698424159520161823&scope=bot&permissions=8'">Invite</button>
