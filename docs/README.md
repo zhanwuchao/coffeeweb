@@ -58,7 +58,7 @@ Eastereggs are triggered by plain text in messages, see if you can find them all
 
 trq | primary developer  
 zyoulou | secondary developer
-rikii | secondary developer   
+rikii | web development   
 varler | developer feedback  
 rmarc | developer feedback  
 czarlz | developer feedback  
