@@ -16,7 +16,8 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-echo "<!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -67,7 +68,7 @@ echo "<!DOCTYPE html>
     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspusers</p>
   </div>
   <div class="stats2">
-  <p>$row["commands"]   row["guilds"]      row["users"]</p>
+  <p><? $row["commands"]   $row["guilds"]      $row["users"] ?></p>
   </div>
   <div class="ex1">
   </div><br>
@@ -80,5 +81,4 @@ echo "<!DOCTYPE html>
   </div><br>
 </body>
 
-</html>";
-?>
+</html>
