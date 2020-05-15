@@ -47,7 +47,7 @@ $db->close();
       </div>
       <div class="status-item status-row">
         <div class="status-col">
-          <p><?php echo $result></p>
+          <p><?php echo $result?></p>
         </div>
         <div class="status-col">
           <p>Lorem ipsum</p>
