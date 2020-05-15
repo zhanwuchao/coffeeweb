@@ -1,3 +1,15 @@
+<?php
+include('../db.php');
+global $db;
+
+$sql = "SELECT * FROM users";
+$result = $db->query($sql);
+
+echo($result->commands);
+
+$db->close();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +33,7 @@
     <a class="button" href="./team.html">Team</a>
     <a class="button" href="./partners.html">Partners</a>
   </header>
-  
+
   <div class="main">
     <div class="status-wrapper">
       <div class="status-head status-row">
