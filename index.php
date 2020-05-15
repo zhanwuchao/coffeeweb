@@ -5,8 +5,6 @@ global $db;
 $sql = "SELECT * FROM users";
 $result = $db->query($sql);
 
-echo($result->commands);
-
 $db->close();
 ?>
 
@@ -49,7 +47,7 @@ $db->close();
       </div>
       <div class="status-item status-row">
         <div class="status-col">
-          <p>Lorem ipsum</p>
+          <p><?php echo $result->commands?></p>
         </div>
         <div class="status-col">
           <p>Lorem ipsum</p>
