@@ -5,7 +5,7 @@ global $db;
 $sql = "SELECT * FROM users";
 $result = $db->query($sql);
 
-var_dump($result);
+var_dump($result->commands);
 
 $db->close();
 ?>
