@@ -2,7 +2,7 @@
 include('../db.php');
 global $db;
 
-$sql = "SELECT * FROM users";
+$sql = "SELECT commands FROM users";
 $result = $db->query($sql);
 
 var_dump($result->commands);

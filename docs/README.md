@@ -15,11 +15,12 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 -donors | get list of donors  
 
 ### Developer // Dev
--eval {code} | evalulate js code from the bot, developer only    
+-eval {code} | eval js code from the bot, developer only    
 -restart | restart the pm2 process and bot, developer only  
--bi   | fetch currentbot statistics, developer only   
+-bi   | fetch current bot statistics, developer only   
 -psi | advanced server info  
--pui | advanced user info   
+-pui | advanced user info  
+-spost | post server count to top.gg   
 
 ### Images  
 
@@ -32,8 +33,7 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 -gamemodes | returns gamemode aliases  
 -gnlb | returns top 10 leaderboard after the rebalance for standard     
 -newpp {player} | returns pp rebalance for standard players    
--`gamemode` {player} | returns players stats    
--super`gamemode` {player} | returns extended profile stats  
+-`gamemode` {player} | returns players stats     
 
 ### Utility  
 
