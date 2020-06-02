@@ -28,10 +28,7 @@ $db->close();
   <header class="menu buttons">
     <a class="button" href="">osu!coffee</a>
     <a class="button" target="_blank" href="./docs">Docs</a>
-    <a class="button" href="./coms.html">Community</a>
     <a class="button" target="_blank" href="https://discord.com/oauth2/authorize?client_id=698424159520161823&scope=bot&permissions=8">Invite</a>
-    <a class="button" href="./team.html">Team</a>
-    <a class="button" href="./partners.html">Partners</a>
   </header>
 
   <div class="main">

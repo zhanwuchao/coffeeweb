@@ -2,8 +2,8 @@
 
 ## Command list (Sorted by category)    
 
-anything in curly braces { } , indicates a required paramater  
-categories are shown based on responce to `-help`; a "//" in bewtween category names refers to an alias  
+anything in curly braces { } , indicates a required parameter  
+categories are shown based on response to `-help`; a "//" in between category names refers to an alias  
 
 ### Uncategorized    
 
@@ -15,9 +15,9 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 -donors | get list of donors  
 
 ### Developer // Dev
--eval {code} | eval js code from the bot, developer only    
--restart | restart the pm2 process and bot, developer only  
--bi   | fetch current bot statistics, developer only   
+-eval {code} | eval js code from the bot  
+-restart | restart the pm2 process and bot  
+-bi   | fetch current bot statistics  
 -psi | advanced server info  
 -pui | advanced user info  
 -spost | post server count to top.gg   
@@ -27,6 +27,8 @@ categories are shown based on responce to `-help`; a "//" in bewtween category n
 -neko | returns neko image using the nekobot api  
 -kanna | returns kanna image using the nekobot api  
 -coffee | returns coffee image using the nekobot api  
+-meme | returns meme from ksoft.si api, scraped from r/dankmemes
+
 
 ### osu!  
 
@@ -57,7 +59,8 @@ Eastereggs are triggered by plain text in messages, see if you can find them all
 ### Development-  
 
 trq | primary developer  
-zyoulou | secondary developer
+zyoulou | secondary developer  
+epicmceditor | secondary developer  
 rikii | web development   
 varler | developer feedback  
 rmarc | developer feedback  
