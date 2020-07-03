@@ -1,14 +1,7 @@
 <?php
 include('../db.php');
-global $db;
 
-$sql = "SELECT commands FROM users";
-$result = $db->query($sql);
-
-var_dump($result->commands);
-
-$db->close();
-?>
+$commands = $odb -> query("SELECT commands FROM stats WHERE commands = '???'"); $bn = $bn -> fetchColumn(0)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +39,7 @@ $db->close();
       </div>
       <div class="status-item status-row">
         <div class="status-col">
-          <p><?php echo $result?></p>
+          <p><?php echo $commands?></p>
         </div>
         <div class="status-col">
           <p>Lorem ipsum</p>
