@@ -33,7 +33,7 @@ categories are shown based on response to `-help`; a "//" in between category na
 ### osu!  
 
 -gamemodes | returns gamemode aliases  
--gnlb | returns top 10 leaderboard after the rebalance for standard     
+-gnlb (.ne) | returns top 10 leaderboard after the rebalance for standard     
 -newpp {player} | returns pp rebalance for standard players    
 -`gamemode` {player} | returns players stats     
 
@@ -47,14 +47,16 @@ categories are shown based on response to `-help`; a "//" in between category na
 
 Current running events in the bot  
 
-message.js | handles messages sent to check if they are sent by a bot, a command, or an easteregg trigger  
+message.js | handles messages sent to check if they are sent by a bot, a command, or an easter egg trigger  
 ready.js | sends a report to the [logging server](https://discord.gg/invite/XeaGkCM) containing low stats and startup time | also changes the bot status every 15 minutes     
 
 ## Easter Eggs  
 
-Eastereggs are triggered by plain text in messages, see if you can find them all!   
+Easter eggs are currently disabled.
 
-## Current contributers:  
+Easter eggs are triggered by plain text in messages, see if you can find them all!   
+
+## Current Contributors:  
 
 ### Development-  
 

@@ -1,7 +1,8 @@
 <?php
 include('../db.php');
 
-$commands = $odb -> query("SELECT commands FROM stats WHERE commands = '???'"); $bn = $bn -> fetchColumn(0)
+$commands = $odb -> query("SELECT commands FROM stats WHERE commands = '???'");
+$bn = $bn -> fetchColumn(0);
 
 <!DOCTYPE html>
 <html lang="en">
