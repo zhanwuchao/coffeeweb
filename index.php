@@ -1,7 +1,8 @@
 <?php
 include('../db.php');
 
-var_dump($odb)
+var_dump($odb);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
