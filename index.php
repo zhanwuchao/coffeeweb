@@ -2,13 +2,7 @@
 include('../db.php');
 
 var_dump($odb)
-
-$commands = $odb -> query("SELECT commands FROM stats WHERE commands = '???'");
-
-var_dump($commands);
-
-$bn = $bn -> fetchColumn(0);
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 
