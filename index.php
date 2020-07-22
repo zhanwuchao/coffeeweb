@@ -1,9 +1,3 @@
-<?php
-include('./db.php');
-
-var_dump($odb);
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +34,7 @@ var_dump($odb);
       </div>
       <div class="status-item status-row">
         <div class="status-col">
-          <p><?php echo $commands?></p>
+          <p>Lorem ipsum</p>
         </div>
         <div class="status-col">
           <p>Lorem ipsum</p>
