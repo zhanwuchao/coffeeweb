@@ -1,3 +1,5 @@
+# !! This is outdated and I no longer work on it, possibly it will be updated some day but this is no long a project being actively worked on
+
 # coffee!web  
 Welcome to the website of osu!coffee, this repository will include the site's srouce, planned features, and bug managment!  
   
